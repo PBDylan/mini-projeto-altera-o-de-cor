@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+}
+
+h1,
+h3,
+#box-button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 1rem;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  background: none;
+  cursor: pointer;
+  color: white;
+}
